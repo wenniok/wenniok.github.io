@@ -1,0 +1,27 @@
+.app {
+    background: #f1f1f1;
+    display: grid;
+    font-family: 'Roboto', sans-serif;
+    grid-template-areas: 
+        "header"
+        "main"
+        "footer";
+    grid-template-columns: auto;
+    /* Definir primeiro parametro como 100vh*/
+    grid-template-rows: 100vh auto auto;
+}
+
+.header {
+    grid-area: header;
+
+}
+
+.main {
+    background: red;
+    grid-area: main;
+
+}
+
+.footer {
+    grid-area: footer;
+}
