@@ -1,33 +1,26 @@
 .informacoes {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 40% 10%;
-    height: 80vh;
+    grid-template-rows: 80% 20%;
+    height: 30vh;
 }
 
-.informacoes_pessoais:nth-child(1) {
-    background: url('../img/background04.png') center / cover no-repeat;
+.informacoes .informacoes_pessoais:nth-child(1) {
+    margin: auto 5%;
     grid-column: 1 / 1;
     grid-row: 1 / 1;
 }
 
 .informacoes_pessoais:nth-child(2) {
+    margin: auto 5%;
     grid-column: 2 / 2;
     grid-row: 1 / 1;
 }
 
 .informacoes_pessoais:nth-child(3) {
-    grid-column: 1 / 1;
-    grid-row: 2 / 2;
-}
-
-.informacoes_pessoais:nth-child(4) {
-    grid-column: 2 / 2;
-    grid-row: 2 / 2;
-}
-
-.informacoes_pessoais:nth-child(5) {
     text-align: center;
+    color: #8e8e8e;
+    margin: auto 0 10px 0;
     grid-column: 1 / 3;
-    grid-row: 3 / 3;
+    grid-row: 2 / 2;
 }

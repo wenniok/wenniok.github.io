@@ -5,10 +5,11 @@
     grid-template-areas: 
         "header"
         "main"
+        "about"
         "footer";
     grid-template-columns: auto;
     /* Definir primeiro parametro como 100vh*/
-    grid-template-rows: 100vh auto auto;
+    grid-template-rows: 100vh auto auto auto;
 }
 
 .header {
@@ -17,11 +18,34 @@
 }
 
 .main {
-    background: red;
+    background: #dddddd;
     grid-area: main;
 
 }
 
+.about {
+    grid-area: about;
+}
+
 .footer {
     grid-area: footer;
+    background: url(../img/bg.jpg);
+}
+
+.footer h2, h3{
+    color: #8e8e8e;
+}
+
+.footer p, h4, h5{
+    color: #6d6d6d;
+}
+
+a {
+    cursor: pointer;
+    color: #4bb8d2;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
 }

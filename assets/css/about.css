@@ -1,0 +1,28 @@
+.about {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    height: 30vh;
+}
+
+.about  .informacoes_pessoais:nth-child(1) {
+    background: url('../img/background04.png') center / cover no-repeat;
+    filter: grayscale(100%);
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+}
+
+.about  .informacoes_pessoais:nth-child(2) {
+    margin: auto 5%;
+    grid-column: 2 / 2;
+    grid-row: 1 / 1;
+}
+
+.about .informacoes_pessoais:nth-child(2) h2 {
+    font-size: 2.7em;
+}
+
+.about .informacoes_pessoais:nth-child(2) p {
+    margin: 10px 0 0 0;
+    font-size: 1.7em;
+}
